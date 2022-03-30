@@ -1,0 +1,232 @@
+/*Body*/
+.Homepage h3{
+    color: darkcyan;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    text-shadow: 5px 2px 6px aquamarine;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.Homepage h4{
+    color: black;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    text-shadow: 3px 2px 4px rgb(127, 204, 255);
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.Homepage{
+    /* min-height: 90vh; */
+    border-bottom: 1px solid rgb(233, 245, 244);
+    min-width: 83vh;
+    background-color: rgb(233, 245, 244);
+}
+
+
+/* FOOTER */
+.footer-dark{
+    margin-top: 0%;
+    color: ivory;
+    border: 1px solid black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* .item{
+    margin-top: 3%;
+    font-size: 16px;
+    margin-bottom: 0%;
+}
+.item ul{
+    color: ivory;
+    padding-left: 0%;
+    list-style-type: none;
+}
+.item a{
+    color: ivory;
+    opacity: 0.5;
+}
+.item a:hover{
+    color: ivory;
+    opacity: 1;
+    text-decoration: none;
+} */
+.social{
+    margin-top: 0%;
+    margin-left: 35%;
+}
+.social .fa{
+    color: ivory;
+    margin: 10px;
+    padding: 5px;
+}
+.copyright{
+    text-align: center;
+}
+
+
+/* Index-Section2*/
+.box2 .carousel-item img { 
+    max-width:100%!important;
+
+}
+.caption_car{
+    background-color: bisque;
+}
+.caption_car h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-align: center;
+}
+.caption_car p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: large;
+    padding: 10px;
+}
+.caption_car a{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    color: brown;
+    font-size: large;
+    padding: 10px;
+}
+.box1{
+    border-top: 1px solid black;
+    padding: 0%;
+    background: url(Img2.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    border: 1px solid black;
+}
+.box3{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+.key_points{
+    list-style-type:disc;
+    margin: 2px;
+    padding: 30px;
+    color: white;
+    text-shadow: 2px 3px 3px black;
+    font-family: 'Times New Roman', Times, seriff;
+    font-style: italic;
+    font-weight: 600;
+    font-size: large;
+}
+.margin_cont{
+    padding-top: 3%;
+}
+.margin_cont p{
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.accordion .card-header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background:url(Img3.jpg);
+    background-size: cover;
+}
+.accordion .btn{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: center !important;
+    outline: none !important;
+    box-shadow: none !important;
+    /* text-decoration: none; */
+}
+.accordion .btn:hover{
+    text-decoration: none;
+    color: white;
+}
+/* .accordion .btn:active{
+    outline: none !important;
+}*/
+.accordion .btn:focus{
+    text-decoration: none;
+} 
+.accordion .card-body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 530;
+}
+.accordion .card-body a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 600;
+    color: darkgreen;
+    text-decoration: none;
+}
+
+/* Explore */
+.Map1{
+    display: flex;
+    align-items: center;
+}
+.Map1 img{
+    width: 90%;
+    padding-left: 10%;
+}
+
+/* junk */
+.login_form{
+    padding-top: 3%;
+}
+.signup_page{
+    padding-top: 3%;   
+}
+.form-group{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding-left: 10px;
+}
+.signup_form_setup{
+    padding-top: 0%;
+    margin-top: 0%;
+}
+.ind_carousel{
+    margin-top: 20px;
+}
+.my_img> img { 
+    /* width:500px;  */
+    height:500px; 
+}
+
+/* Sign-Up */
+.card-img-left {
+    width: 45%;
+    /* Link to your background image using in the property below! */
+    background: scroll center url('https://st4.depositphotos.com/23760982/25568/i/450/depositphotos_255689506-stock-photo-scenic-sight-cloudy-summer-afternoon.jpg');
+    background-size:cover;
+}
+.d-grid{
+    text-align: center;
+}
+.btn-lg{
+    width: 280px;
+}
+.btn-login {
+    justify-content: center;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+} 
+.btn-google {
+    justify-content: center;
+    letter-spacing: 0.05rem;
+    color: white !important;
+    background-color: #ea4335;
+}
+.btn-facebook {
+    font-size: 3px;
+    justify-content: center;
+    letter-spacing: 0.05rem;
+    color: white !important;
+    background-color: #3b5998;
+}

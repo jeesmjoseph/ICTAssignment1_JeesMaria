@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    
+    <!-- For Social Media Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
+    
+    <title>Kerala Tourism</title>
+</head>
+<body>
+        
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="col-sm-5">
+            <div class="logo"><a href="#" title="Kerala Tourism"><img src="https://www.keralatourism.org/images/kt/kerala-tourism-title.png?d=18122017" alt="Kerala Tourism"></a></div>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 250px;">
+            <li class="nav-item">
+              <a class="nav-link" href="http://127.0.0.1:5500/FSD_Assignment1_KeralaTourism/Assignment/index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://127.0.0.1:5500/FSD_Assignment1_KeralaTourism/Assignment/login.html">Register</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Explore Kerala</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">E-Brochures</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
+
+    <div class="Homepage">
+        <div class="row no-gutters">
+            <div class="col-lg-4">
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                              Kasaragod
+                            </a>
+                          </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <b>Zone</b>: South <br>
+                            Kasaragod is renowned for its hills, forts and water bodies.
+                            The coir and handloom industry here are extremely famous around the world. 
+                            The place is also popular for its ancient temples and rich biodiversity. <br>
+                            <a href="#">Click to continue</a>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Kannur
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <b>Zone</b>: South <br>
+                            Kannur is most renowned for the Theyyam performances in its temples.
+                            Marco Polo christened it a ‘Great Emporium Of Spice Trade’.
+                            It been hailed as an influential sea port with a a plethora of forts, temples, beaches and wildlife sanctuaries. <br>
+                            <a href="#">Click to continue</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Kozhikode
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <b>Zone</b>: South <br>
+                            Kozhikode is renowned for it's hospitality and cuisine.
+                            Once this charming coastal land was the capital of the influential Zamorins and a prominent trade and commerce centre. 
+                            The whiff of history continues to permeate it's lanes and bazaars.<br>
+                            <a href="#">Click to continue</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              Wayanad
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <b>Zone</b>: South <br>
+                            Wayanad is among the few areas in the world that have managed to conserve their natural charm and beauty.
+                            It is host to a large variety of endemic species.
+                            The tribals of the area are renowned for their unique customs and the festivals.<br>
+                            <a href="#">Click to continue</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="heading5">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                              Malappuram
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <b>Zone</b>: South <br>
+                            Malappuram district has a rich and vibrant history.
+                            It has made numerous contributions to the cultural heritage of Kerala.
+                            The historic monuments, diverse natural attractions and a range of cultural and ritual art forms add to its charm as a destination.<br>
+                            <a href="#">Click to continue</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="heading6">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                              Palakkad
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <b>Zone</b>: South <br>
+                            Celebrated as the Granary of Kerala, Palakkad is a vast stretch of fertile plains 
+                            interspersed with hills,rivers,mountain streams and forests.
+                            Principally an agrarian society it is a potpourri of 
+                            Tamil and Kerala culture, famous for Carnatic music.<br>
+                            <a href="#">Click to continue</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="heading7">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                              Thrissur
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <b>Zone</b>: Central Kerala <br>
+                            The cultural capital of Kerala.
+                            From majestic elephants to colourful pulikali processions to the world renowned Thrissur Pooram, 
+                            there is always a festive atmosphere in the air.
+                            It is also the abode of several cultural centres.<br>
+                            <a href="#">Click to continue</a>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col Map1">
+                <img src="Images/Img14.png" alt="Reload">
+            </div>
+            <div class="col-lg-4">
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="heading12">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse12" aria-expanded="true" aria-controls="collapse12">
+                              Ernakulam
+                            </a>
+                          </h2>
+                        </div>
+                        <div id="collapse12" class="collapse" aria-labelledby="heading12" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <b>Zone</b>: Central Kerala <br>
+                            Ernakulam is a sprawling metropolis that beautifully combines its natural wonders with 
+                            providing a base for a majority of the State’s business enterprises.
+                            It also has a plethora of destinations for tourists to enjoy. 
+                            The city of Kochi, with its fine natural harbour, is the undisputed crown jewel of the district. <br>
+                            <a href="#">Click to continue</a>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="heading8">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                            Tour Packages
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <b>Zone</b>: North <br>
+                            The cultural capital of Kerala.
+                            From majestic elephants to colourful pulikali processions to the world renowned Thrissur Pooram, 
+                            there is always a festive atmosphere in the air.
+                            It is also the abode of several cultural centres.<br>
+                            <a href="#">Click to continue</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="heading9">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                            Festivals To Attend
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <b>Zone</b>: North <br>
+                            The cultural capital of Kerala.
+                            From majestic elephants to colourful pulikali processions to the world renowned Thrissur Pooram, 
+                            there is always a festive atmosphere in the air.
+                            It is also the abode of several cultural centres.<br>
+                            <a href="#">Click to continue</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="heading10">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                              Travel Kerala App
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse10" class="collapse" aria-labelledby="heading10" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <b>Zone</b>: North <br>
+                            The cultural capital of Kerala.
+                            From majestic elephants to colourful pulikali processions to the world renowned Thrissur Pooram, 
+                            there is always a festive atmosphere in the air.
+                            It is also the abode of several cultural centres.<br>
+                            <a href="#">Click to continue</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="heading11">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                              Travel Kerala App
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse11" class="collapse" aria-labelledby="heading11" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <b>Zone</b>: North <br>
+                            The cultural capital of Kerala.
+                            From majestic elephants to colourful pulikali processions to the world renowned Thrissur Pooram, 
+                            there is always a festive atmosphere in the air.
+                            It is also the abode of several cultural centres.<br>
+                            <a href="#">Click to continue</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="heading13">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                              Travel Kerala App
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse13" class="collapse" aria-labelledby="heading13" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <b>Zone</b>: North <br>
+                            The cultural capital of Kerala.
+                            From majestic elephants to colourful pulikali processions to the world renowned Thrissur Pooram, 
+                            there is always a festive atmosphere in the air.
+                            It is also the abode of several cultural centres.<br>
+                            <a href="#">Click to continue</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="heading14">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                              Thiruvananthapuram
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse14" class="collapse show" aria-labelledby="heading14" data-parent="#accordionExample">
+                          <div class="card-body">
+                            
+                                <b>Zone</b>: North <br>
+                                Capital of Kerala. 
+                                The long shoreline with internationally renowned beaches, historic monuments, backwater 
+                                stretches and a rich cultural heritage make this district a much sought-after 
+                                tourist destination. <br>
+                                <a href="#">Click to continue</a>
+                              
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        
+        <!-- <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 16rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 16rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 16rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 16rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-col-5">
+                    <div class="card" style="width: 16rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div> -->
+        <!-- <div class="row mx-0 justify-content-around">
+            <div class="row-col-5 px-0">
+                <div class="card" style="width: 16rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row-col-5">
+                <div class="card" style="width: 16rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row-col-5">
+                <div class="card" style="width: 16rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row-col-5">
+                <div class="card" style="width: 16rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row-col-5 px-0">
+                <div class="card" style="width: 16rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div> -->
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-dark bg-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <!-- <div class="col-md-3 item">
+                        <h3>Explore</h3>
+                        <ul>
+                            <li><a href="#">Media Room</a></li>
+                            <li><a href="#">Tourism Events</a></li>
+                            <li><a href="#">Maps</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 item">
+                        <h3>Travel Hub</h3>
+                        <ul>
+                            <li><a href="#">Kerala at a Glance</a></li>
+                            <li><a href="#">Travel Tips</a></li>
+                            <li><a href="#">Where To Stay?</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 item">
+                        <h3>Eco-Tourism</h3>
+                        <ul>
+                            <li><a href="#">Hills</a></li>
+                            <li><a href="#">Backwaters</a></li>
+                            <li><a href="#">Beaches</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 item">
+                        <h3>Specialities</h3>
+                        <ul>
+                            <li><a href="#">Ayurveda</a></li>
+                            <li><a href="#">Monsoon</a></li>
+                            <li><a href="#">Houseboat</a></li>
+                        </ul>
+                    </div> -->
+                    <div class="col social mt-5"><a href="#"><i class="fa fa-facebook fa-2x"></i></a><a href="#"><i class="fa fa-twitter fa-2x"></i></a><a href="#"><i class="fa fa-youtube fa-2x"></i></a><a href="#"><i class="fa fa-instagram fa-2x"></i></a><a href="#"><i class="fa fa-google fa-2x"></i></a></div>
+                </div>
+                <p class="copyright">Kerala Tourism Development Corporation © 2022</p>
+            </div>
+        </footer>  
+    </div>
+
+</body>
+</html>
