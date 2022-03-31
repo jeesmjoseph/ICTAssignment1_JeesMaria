@@ -1,4 +1,14 @@
 /*Body*/
+.Dist_title{
+    color: black !important;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    text-shadow: 8px 8px 6px rgb(248, 132, 38) !important;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
 .Homepage h3{
     color: darkcyan;
     font-style: oblique;
@@ -32,25 +42,6 @@
     border: 1px solid black;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-/* .item{
-    margin-top: 3%;
-    font-size: 16px;
-    margin-bottom: 0%;
-}
-.item ul{
-    color: ivory;
-    padding-left: 0%;
-    list-style-type: none;
-}
-.item a{
-    color: ivory;
-    opacity: 0.5;
-}
-.item a:hover{
-    color: ivory;
-    opacity: 1;
-    text-decoration: none;
-} */
 .social{
     margin-top: 0%;
     margin-left: 35%;
@@ -146,9 +137,6 @@
     text-decoration: none;
     color: white;
 }
-/* .accordion .btn:active{
-    outline: none !important;
-}*/
 .accordion .btn:focus{
     text-decoration: none;
 } 
@@ -165,39 +153,18 @@
     text-decoration: none;
 }
 
+
 /* Explore */
 .Map1{
     display: flex;
     align-items: center;
 }
 .Map1 img{
+    outline: black !important;
     width: 90%;
     padding-left: 10%;
 }
 
-/* junk */
-.login_form{
-    padding-top: 3%;
-}
-.signup_page{
-    padding-top: 3%;   
-}
-.form-group{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: large;
-    padding-left: 10px;
-}
-.signup_form_setup{
-    padding-top: 0%;
-    margin-top: 0%;
-}
-.ind_carousel{
-    margin-top: 20px;
-}
-.my_img> img { 
-    /* width:500px;  */
-    height:500px; 
-}
 
 /* Sign-Up */
 .card-img-left {
@@ -229,4 +196,45 @@
     letter-spacing: 0.05rem;
     color: white !important;
     background-color: #3b5998;
+}
+
+
+/* Districts*/
+.descript{
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    font-size: large; 
+    text-align: justify;
+}
+.attractions h3{
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
+.attracts .card-img-top{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+.attracts{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.attracts .card-img-overlay{
+    color: white;
+    display: flex;
+    align-items: end;
+    padding-top: 30px;
+    padding-left: 10%;
+    text-shadow: 8px 3px 9px black;
+    text-decoration: underline;
+}
+.deep_dive{
+    margin-bottom: 20px;
+}
+.deep_dive h3{
+    padding-top: 10px;
+    padding-left: 20%;
+}
+.deep_dive a{
+    font-family: 'Times New Roman', Times, serif;
 }
