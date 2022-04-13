@@ -71,22 +71,26 @@
 
                     <h5 class="card-title text-center mb-5 fw-light fs-8">Register</h5>
 
-                    <form>
+                    <form action="index.html" class="login">
         
                       <div class="form-floating mb-3">
-                        <input type="text" class="form-control" placeholder="Username" required autofocus>
+                        <input type="text" class="form-control" id="username" placeholder="Username" required autofocus>
                       </div>
         
                       <div class="form-floating mb-3">
-                        <input type="email" class="form-control"placeholder="Email" required>
+                        <input type="email" class="form-control" id="email" placeholder="Email" required>
+                      </div>
+
+                      <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="phone" placeholder="Phone Number" required>
                       </div>
     
                       <div class="form-floating mb-3">
-                        <input type="password" class="form-control" placeholder="Password" required>
+                        <input type="password" class="form-control" id="pwd" placeholder="Password" required>
                       </div>
         
                       <div class="form-floating mb-3">
-                        <input type="password" class="form-control" placeholder="Confirm Password" required>
+                        <input type="password" class="form-control" id="confirmpwd" placeholder="Confirm Password" required>
                       </div>
         
                       <div class="d-grid mb-2">
@@ -129,6 +133,8 @@
             </div>
         </footer>  
     </div>
+
+    <script src="./js/script.js"></script>
       
 </body>
 </html>
