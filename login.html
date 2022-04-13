@@ -82,15 +82,15 @@
                       </div>
 
                       <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="phone" placeholder="Phone Number" required>
+                        <input type="text" class="form-control" id="phone" oninput="checkPhone();" placeholder="Phone Number" required>
                       </div>
     
                       <div class="form-floating mb-3">
-                        <input type="password" class="form-control" id="pwd" placeholder="Password" required>
+                        <input type="password" class="form-control" id="pwd" oninput="checkpassword();" placeholder="Password" minlength="8" required>
                       </div>
         
                       <div class="form-floating mb-3">
-                        <input type="password" class="form-control" id="confirmpwd" placeholder="Confirm Password" required>
+                        <input type="password" class="form-control" id="confirmpwd" oninput="confirmpassword();" placeholder="Confirm Password" required>
                       </div>
         
                       <div class="d-grid mb-2">
@@ -134,7 +134,7 @@
         </footer>  
     </div>
 
-    <script src="./js/script.js"></script>
+    <script src="./js/login.js"></script>
       
 </body>
 </html>
